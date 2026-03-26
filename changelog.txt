@@ -39,4 +39,4 @@ Notable ROM changes (11.6.2):
 
 Credits:
 =======================================
-- ArianK16a, Keosh2, XDqrKnzX, GR, Chaitanya, Adrianyyyy.
+- ArianK16a, Keosh2, XDqrKnzX, GR, Adrianyyyy.
