@@ -1,0 +1,42 @@
+This is Android 16 QPR2 with March 2026 security patches
+
+Evolution X | UNOFFICIAL Release
+=======================================
+Device: Poco F5 Pro / Redmi K60 (mondrian)
+Build Date: 26/03/2026
+Build Type: UNOFFICIAL
+
+Notes:
+=======================================
+- Switched to EROFS file system for superior performance
+- Leica Camera and Dolby Atmos included by default
+- CLEAN FLASH IS MANDATORY (due to FS change from ext4)
+
+Device changes:
+=======================================
+- Kernel/FS: Migrated to EROFS (Faster system read speeds)
+- Camera: Integrated Leica Camera (fully functional)
+- Audio: Added Dolby Atmos support
+- SEPolicy: Fixed performance HAL denials (improved CPU scaling)
+- SEPolicy: Fixed Scoped Storage permissions for vold
+- SEPolicy: General stability improvements and log cleanup
+
+Notable ROM changes (11.6.2):
+=======================================
+- Merge March 2026 security patches
+- Evolver: Add gradients customization
+- Evolver: Add ongoing action chip implementation
+- Evolver: Bring back status bar clock position preference
+- Settings: Fix NPE in FingerprintSettings (UDFPS screen-off toggle)
+- StorageManagerService: pre-create Android/media app dirs
+- SystemUI: Add custom gradient start/end color support
+- SystemUI: Redesign ongoing music chip and popup
+- SystemUI: Rework media session helper for ongoing action progress chip
+- SystemUI: Fix notification flicker with translucency enabled
+- base: Add method to restart SystemUI
+- extras: Add more UDFPS icons and bring back fonts/clock fonts
+- vold: fix Android/media app dir ACLs and revert 777 mode
+
+Credits:
+=======================================
+- Arian16k, Keosh2, XDqrKnzX, GR, Chaitanya, Adrianyyyy.
