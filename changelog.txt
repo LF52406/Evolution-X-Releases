@@ -9,7 +9,6 @@ Build Type: UNOFFICIAL
 Notes:
 =======================================
 - Switched to secure signed 'user' build (Signed with custom release keys)
-- Added new custom default wallpaper
 - System: Implemented under-the-hood performance tweaks (enabled mimalloc, stripped ART debug overhead)
 - System: Pre-optimized heavy system apps (SystemUI, Launcher) for smoother UI responsiveness
 
