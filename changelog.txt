@@ -1,3 +1,81 @@
+This is Android 16 QPR2 with May 2026 security patches
+
+Evolution X | UNOFFICIAL Release
+=======================================
+Device: Poco F5 Pro / Redmi K60 (mondrian)
+Build Date: 30/05/2026
+Build Type: UNOFFICIAL
+
+Notable ROM changes (11.7):
+=======================================
+Bluetooth: Add L2CAP and A2DP offload coex mechanism for MTK
+BluetoothPowerStatsCollector: Handle unsupported hardware energy info gracefully
+Evolver: Add Settings icon background customization
+Evolver: Add Sleep Mode trigger option in idlemanager
+Evolver: Add custom carrier label and location customization
+Evolver: Add more clocks
+Evolver: Allow toggling keyguard behind scrim visibility
+Evolver: Bring back status bar brightness control
+Evolver: Clean up and organize various fragments
+Evolver: Fix QS media player show switch
+Evolver: Fix UI/UX inconsistencies in lockscreen clock picker fragment
+Evolver: Fix up clock styles previews
+Evolver: Implement lockscreen clock picker fragment with UI
+Evolver: Import Skydoves color picker
+Evolver: Miscellaneous: Shared UI infrastructure and multi-screen refactors
+Evolver: Power menu: Add granular restart action toggles
+Evolver: Rework locksreen clock color picker
+Evolver: Show lockscreen wallpaper in custom clock preview
+Explicitly initialize chrono types in VirtualCameraRenderThread
+Fix Active Array Size calculation logic
+Game space: fixing performance mode issue
+OmniJawsClient: Update default icon pack
+PixelPropsUtils: activate Mosey/Quick Share via GMS spoof in PP targets
+Sandbox: Fixing auth activity lifecycle issues
+Settings: Add Settings icon background customization
+Settings: Add sleep mode deep sleep toggle
+Settings: Fix battery widget not updating in real time
+Settings: Fix resource not found issue in notification settings
+Settings: bluetooth: fix DISALLOW_CONFIG_BLUETOOTH blocking settings toggle
+SettingsLib: Force enable expressive theme
+SystemUI: Add BatteryEventService for Intelligence battery widget
+SystemUI: Add Sleep Mode trigger option in idlemanager
+SystemUI: Add custom media waveform seekbar support
+SystemUI: Add custom carrier text customization
+SystemUI: Add customization to select carrier label location
+SystemUI: Add haptic feedback to QS widget sliders
+SystemUI: Add more clocks
+SystemUI: Adding screen on wp depth animation
+SystemUI: Allow toggling keyguard behind scrim visibility
+SystemUI: DynamicBar: fixing keyguard chips ui issues
+SystemUI: EnhancedEstimatesImpl: import improvements and fixes
+SystemUI: Fix always-on haptics mode triggering visual pulse
+SystemUI: Fix and add status bar brightness control for lockscreen
+SystemUI: Fix slider widget inner slider corner radius
+SystemUI: Fix up and improve clock styles
+SystemUI: Fix volume slider fill not hiding at zero volume
+SystemUI: Follow material expressive icons for status bar tuner
+SystemUI: GlobalActions: Read restart actions from LineageSettings
+SystemUI: Import Turbo based battery estimates
+SystemUI: Refactor clock styles for perf
+SystemUI: shade perf improvements
+SystemUI: tuner: Update statusbar tuner icons
+ThemeStore: add support for dynamic media waveform themes
+Update BCR to Version v3.1
+Various OmniJaws updates
+WeatherProvider: Update import path for OmniJawsClient
+core: Add PixelDeviceRepository and migrate PixelPropsUtils to dynamic
+core: Add <locked-component> sysconfig tag with PMS enforcement
+core: Fix dispatch detach window race
+core: treat redraws and stretch effects as movement
+fixing weather icon pack updates
+sdk: Add common utils lib
+sdk: LineageSettings: Add POWER_MENU_RESTART_ACTIONS system setting
+security: harden TrickyStore keybox validation and extend PIF security patch props
+services: Optimizing redundant keyguard checks
+
+==============================================================================
+
 This is Android 16 QPR2 with April 2026 security patches
 
 Evolution X | UNOFFICIAL Release
