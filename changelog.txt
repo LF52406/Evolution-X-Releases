@@ -1,3 +1,55 @@
+This is Android 16 QPR2 with June 2026 security patches
+
+Evolution X | UNOFFICIAL Release
+=======================================
+Device: Poco F5 Pro / Redmi K60 (mondrian)
+Build Date: 12/06/2026
+Build Type: UNOFFICIAL
+
+Device changes:
+=======================================
+Added Thermal Profiles
+Added workaround for doze mode brightness (fix for AOD flickering)
+Integrated XiaomiParts interface for advanced device control
+Added Double Tap and advanced wake functions in Doze mode
+
+Notable ROM changes (11.8):
+=======================================
+Evolver: Add album art color override for lockscreen clock
+Evolver: Add some new ios type clocks
+GameSpace: Add toggle to disable pulse bass haptics in-game
+GameSpace: Disable statusbar brightness control with auto brightness
+Lights: Hide brightness controls when the device has none
+LightsCapabilities: Add LIGHTS_NO_BRIGHTNESS_CONTROL
+PixelDeviceRepository: Fix Pixel 10 series not showing in dropdown
+Settings: Use dynamic colors for UDFPS enroll style
+Settings: gestures: gate navbar button order on Launcher3 as default home
+SystemUI: Add new clock styles
+SystemUI: DynamicBar: Skip biometric unlock on keyguard when disabled
+SystemUI: Fix UDFPS animation attach/detach race
+SystemUI: Fix clock container height not shrinking on scale < 100%
+SystemUI: Fix clock scale overflowing layout
+SystemUI: Fix sporadic jumps in statusbar brightness control
+SystemUI: Fix weather text not following custom clock color
+SystemUI: Match custom clock weather text with date
+SystemUI: Move weather next to clock date
+SystemUI: Reduce some clocks bottom margin
+WindowWakeUpPolicy: Don't wake from lid when LID_BEHAVIOR is disabled
+base: decouple ambient gestures from pulse-on-notification
+config: Spoof BuildFingerprint as Pixel Canary
+custom_rom_hide: additional intercepts
+fixup! Settings: Reset tether offload developer setting correctly
+input: Fix suppression of composite Bluetooth keyboards
+surfaceflinger: always show refresh/render rate in overlay
+surfaceflinger: arr: handle no vote the same as idle
+surfaceflinger: arr: use as low as kMinSupportedFrameRate from anchor list for idle rate
+surfaceflinger: extend ARR overrides to normal, add oplus anchor list
+surfaceflinger: specifically no vote status bar
+surfaceflinger: vrr: apply idle signal to vrr rate policy
+wm: DisplayRotation: Preserve locked rotation during screen state changes
+
+==============================================================================
+
 This is Android 16 QPR2 with May 2026 security patches
 
 Evolution X | UNOFFICIAL Release
