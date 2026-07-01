@@ -261,4 +261,5 @@ Notable ROM changes (11.6.2):
 
 Credits:
 =======================================
-- ArianK16a, Keosh2, XDqrKnzX, GR, Adrianyyyy.
+- Thanks to the Evolution X team for the source code.
+- ArianK16a, Keosh2, DqrKnz, JoseoPablo, Adrianyyyy, xenogenхesys.
