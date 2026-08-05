@@ -1,7 +1,7 @@
 {
-  "rom_name": "Evolution X",
+  "rom_name": "Custom ROM",
   "device": "mondrian",
-  "latest_version": "11.10",
+  "latest_version": "BP4A.251205.007", 
   "android_version": "16",
-  "download_url": "https://example.com/update.zip"
+  "download_url": "https://твой_тестовый_zip_файл.zip"
 }
